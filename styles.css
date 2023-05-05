@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
 .text-menor {
   font-size: 13px;
 }
 
 .divs-facilidades {
   width: 325px;
+}
+.botao-lilas {
+  background-color: #9353ff;
+}
+.botao-lilas:hover {
+  background-color: #392064;
+}
+
+.verde-limao {
+  color: #daff01;
+}
+.div-novidades {
+  width: 325px;
+}
+.x {
+  color: green;
+}
+
+@media (min-width: 768px) {
+  .div-novidades {
+    width: 696px;
+  }
 }
